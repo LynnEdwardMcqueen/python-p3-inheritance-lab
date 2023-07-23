@@ -25,4 +25,5 @@ class Teacher(User):
         index = random.randint(0, len(self.knowledge) - 1)
         return(self.knowledge[index] )
 
-
+sally = Teacher("Sally", "Gaddis")
+print(sally.knowledge[0])
